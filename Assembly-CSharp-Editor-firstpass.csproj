@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{C178FB76-11E4-4F4A-317A-FE36179B586B}</ProjectGuid>
+    <ProjectGuid>{653EA3DE-D50C-642D-B72B-EB6A941E8653}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-Editor-firstpass</AssemblyName>
@@ -75,27 +75,6 @@
     <Compile Include="Assets\Plugins\Febucci\Text Animator\Example\Editor\EffectsTestingCustomEditor.cs" />
     <Compile Include="Assets\Plugins\Febucci\Text Animator\Example\Editor\UsageExampleCustomEditor.cs" />
     <Compile Include="Assets\Plugins\JSON\Editor\JSONChecker.cs" />
-    <Reference Include="UnityEngine.Purchasing">
-      <HintPath>E:/Users/Vincent Kyne/Perforce/vjkyne_DESKTOP-8828JLR_3511/Omega_2_Senior_Project/Library/ScriptAssemblies/UnityEngine.Purchasing.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor.Purchasing">
-      <HintPath>E:/Users/Vincent Kyne/Perforce/vjkyne_DESKTOP-8828JLR_3511/Omega_2_Senior_Project/Library/ScriptAssemblies/UnityEditor.Purchasing.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>E:/Users/Vincent Kyne/Perforce/vjkyne_DESKTOP-8828JLR_3511/Omega_2_Senior_Project/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>E:/Users/Vincent Kyne/Perforce/vjkyne_DESKTOP-8828JLR_3511/Omega_2_Senior_Project/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>E:/Users/Vincent Kyne/Perforce/vjkyne_DESKTOP-8828JLR_3511/Omega_2_Senior_Project/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.TextMeshPro">
-      <HintPath>E:/Users/Vincent Kyne/Perforce/vjkyne_DESKTOP-8828JLR_3511/Omega_2_Senior_Project/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Analytics.DataPrivacy">
-      <HintPath>E:/Users/Vincent Kyne/Perforce/vjkyne_DESKTOP-8828JLR_3511/Omega_2_Senior_Project/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2018.4.29f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
     </Reference>
@@ -335,18 +314,6 @@
     </Reference>
     <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
       <HintPath>C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/16.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor.Advertisements">
-      <HintPath>E:/Users/Vincent Kyne/Perforce/vjkyne_DESKTOP-8828JLR_3511/Omega_2_Senior_Project/Library/PackageCache/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Analytics.StandardEvents">
-      <HintPath>E:/Users/Vincent Kyne/Perforce/vjkyne_DESKTOP-8828JLR_3511/Omega_2_Senior_Project/Library/PackageCache/com.unity.analytics@3.2.3/AnalyticsStandardEvents/Unity.Analytics.StandardEvents.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Analytics.Editor">
-      <HintPath>E:/Users/Vincent Kyne/Perforce/vjkyne_DESKTOP-8828JLR_3511/Omega_2_Senior_Project/Library/PackageCache/com.unity.analytics@3.2.3/Editor/Unity.Analytics.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Analytics.Tracker">
-      <HintPath>E:/Users/Vincent Kyne/Perforce/vjkyne_DESKTOP-8828JLR_3511/Omega_2_Senior_Project/Library/PackageCache/com.unity.analytics@3.2.3/Editor/Unity.Analytics.Tracker.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.iOS.Extensions.Xcode">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2018.4.29f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
@@ -711,11 +678,11 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{60F5EBE1-1996-4AC2-C1CE-69C5F657DA84}</Project>
+      <Project>{1368DC46-8CE1-D0C4-96B3-05DC39947444}</Project>
       <Name>Assembly-CSharp-firstpass</Name>
     </ProjectReference>
     <ProjectReference Include="UltEvents.csproj">
-      <Project>{6484C90A-21F7-4A2F-C96F-ADFB59B24285}</Project>
+      <Project>{DD506AE8-DBB6-E998-D210-6FBB6964089D}</Project>
       <Name>UltEvents</Name>
     </ProjectReference>
   </ItemGroup>
