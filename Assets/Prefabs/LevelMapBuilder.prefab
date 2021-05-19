@@ -1,0 +1,133 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5298778425994829232
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5298778425994829246}
+  - component: {fileID: 5298778425994829233}
+  m_Layer: 0
+  m_Name: LevelMapBuilder
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5298778425994829246
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5298778425994829232}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5298778425994829233
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5298778425994829232}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7637666995fdb9b49be76aa120e3a7f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  randomSeed: 0
+  floorWidth:
+    minNum: 200
+    maxNum: 200
+  floorHeight:
+    minNum: 200
+    maxNum: 200
+  roomAmount:
+    minNum: 12
+    maxNum: 25
+  roomWidth:
+    minNum: 5
+    maxNum: 18
+  roomHeight:
+    minNum: 5
+    maxNum: 18
+  corridorLength:
+    minNum: 3
+    maxNum: 18
+  corridorWidth:
+    minNum: 1
+    maxNum: 4
+  groundTiles:
+  - {fileID: 21300000, guid: d2a552c86e9d2e743977c7b19b1af02f, type: 3}
+  rightWallTiles:
+  - {fileID: 21300000, guid: ef51c697fdfb39b4eaffba4c5bf71d35, type: 3}
+  leftWallTiles:
+  - {fileID: 21300000, guid: 4352714893ef84e458c6b84baa0e5708, type: 3}
+  bottomWallTiles:
+  - {fileID: 21300000, guid: 9ed17b98add702e4f8b24c6cdd5c9a4c, type: 3}
+  topWallTiles:
+  - {fileID: 21300000, guid: 86d2f41b011ea5045bc7e8045b150e6f, type: 3}
+  bottomLeftCornerWallTiles:
+  - {fileID: 21300000, guid: b98ce910e045414499c673f2b14a4580, type: 3}
+  topLeftCornerWallTiles:
+  - {fileID: 21300000, guid: 03c00b9bff3a3904f8d095d95986ffab, type: 3}
+  bottomRightCornerWallTiles:
+  - {fileID: 21300000, guid: 31c4f667e64148049819c84cb50ac663, type: 3}
+  topRightCornerWallTiles:
+  - {fileID: 21300000, guid: 0e53ee66b7fad87469002e3f3589ae05, type: 3}
+  horizontalStripWallTiles:
+  - {fileID: 21300000, guid: e5b4410348b45a448b72cb9baa4af74d, type: 3}
+  verticalStripWallTiles:
+  - {fileID: 21300000, guid: bc2e77b0e4142d54485fd5f598ee6a87, type: 3}
+  middleWallTiles:
+  - {fileID: 21300000, guid: 4b76135a99ec36141ac4fad1403c4e15, type: 3}
+  rightCapWallTiles:
+  - {fileID: 21300000, guid: e35e4f35141b00c4f8360735cbe3230c, type: 3}
+  leftCapWallTiles:
+  - {fileID: 21300000, guid: 69a6f04b57a8c6f46846383d2b00fc98, type: 3}
+  bottomCapWallTiles:
+  - {fileID: 21300000, guid: b05b7403824782e4899f18851258d859, type: 3}
+  topCapWallTiles:
+  - {fileID: 21300000, guid: 5eab9684d356d9148872e7581ddbbe39, type: 3}
+  outerTiles:
+  - {fileID: 21300000, guid: 1193aab11e2dd9243974256560526c95, type: 3}
+  enemyObjects:
+  - {fileID: 6464388483653580709, guid: ebba2f8faaee2274aba90f0b5c7a4def, type: 3}
+  enemyRoomAmountChance:
+    minNum: 1
+    maxNum: 5
+  enemySpawnChance: 7
+  BaseItem: {fileID: 8461291573660580998, guid: e5287a9f2eb63d846b08bdc247185958,
+    type: 3}
+  itemObjects:
+  - {fileID: 11400000, guid: af081b22abea248439570f935274d6f5, type: 2}
+  - {fileID: 11400000, guid: 5775f9895d89fde4fbbe0c57c06bae4f, type: 2}
+  - {fileID: 11400000, guid: 99257b7f04670b84ab62933088c635d1, type: 2}
+  - {fileID: 11400000, guid: 6fd754ccc5f69bd4890fddf6f1378b95, type: 2}
+  - {fileID: 11400000, guid: 511c08433b9c597458c4afdbea150c61, type: 2}
+  itemRoomAmountChance:
+    minNum: 1
+    maxNum: 3
+  itemSpawnChance: 5
+  keyItem: {fileID: 11400000, guid: 9e03083465c44524988cceb2850d3157, type: 2}
+  ShopLocation: {fileID: 4517382507283184689, guid: d5078335ab171ab4587cc40702cae6d9,
+    type: 3}
+  ShopWarp: {fileID: 6629344687994752550, guid: aa0f62620533424449171e635b121381,
+    type: 3}
+  shopSpawnChance: 2
+  player: {fileID: 5843998403044104974, guid: 020c53cfff5aa1043a1a6d53f908eb39, type: 3}
+  inventory: {fileID: 0}
+  exitObject: {fileID: 5152307310761448593, guid: bc9e0c973406b844693cb57296434b2d,
+    type: 3}
+  columns: 0
+  rows: 0
+  tileScale: 0
+  randomWeight: 20

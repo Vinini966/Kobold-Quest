@@ -1,0 +1,207 @@
+[
+  {
+    "nodes": [
+      {
+        "character": [ "Shopkeep", 1 ],
+        "is_box": false,
+        "next": "8845044",
+        "node_name": "8139860",
+        "node_type": "show_message",
+        "object_path": "",
+        "slide_camera": true,
+        "speaker_type": 0,
+        "text": { "ENG": "I don't steal. I barter well." },
+        "title": "Show Message"
+      },
+      {
+        "character": [ "Shopkeep", 1 ],
+        "is_box": false,
+        "next": "8845044",
+        "node_name": "8079647",
+        "node_type": "show_message",
+        "object_path": "",
+        "slide_camera": true,
+        "speaker_type": 0,
+        "text": { "ENG": "Just \"found\" this today." },
+        "title": "Show Message"
+      },
+      {
+        "character": [ "Shopkeep", 1 ],
+        "is_box": false,
+        "next": "8845044",
+        "node_name": "9180831",
+        "node_type": "show_message",
+        "object_path": "",
+        "slide_camera": true,
+        "speaker_type": 0,
+        "text": { "ENG": "Welcome to EMME, Estrix's Magical Mushroom Emporium!" },
+        "title": "Show Message"
+      },
+      {
+        "character": [ "Shopkeep", 1 ],
+        "is_box": false,
+        "next": "8845044",
+        "node_name": "8619830",
+        "node_type": "show_message",
+        "object_path": "",
+        "slide_camera": true,
+        "speaker_type": 0,
+        "text": { "ENG": "I am not a bad goblin, I am a good goblin who does bad things." },
+        "title": "Show Message"
+      },
+      {
+        "character": [ "Shopkeep", 1 ],
+        "is_box": false,
+        "next": "8845044",
+        "node_name": "5402681",
+        "node_type": "show_message",
+        "object_path": "",
+        "slide_camera": true,
+        "speaker_type": 0,
+        "text": { "ENG": "Is this getting old yet?" },
+        "title": "Show Message"
+      },
+      {
+        "character": [ "Shopkeep", 1 ],
+        "is_box": false,
+        "next": "8845044",
+        "node_name": "3673845",
+        "node_type": "show_message",
+        "object_path": "",
+        "slide_camera": true,
+        "speaker_type": 0,
+        "text": { "ENG": "There's no I in team but con in economy." },
+        "title": "Show Message"
+      },
+      {
+        "next": "9922559",
+        "node_name": "START",
+        "node_type": "start",
+        "title": "Start"
+      },
+      {
+        "branches": {
+          "1": "8139860",
+          "2": "8349477",
+          "3": "6123164",
+          "4": "8079647",
+          "5": "8845044",
+          "6": "6170663",
+          "7": "9180831",
+          "8": "1669721",
+          "9": "8619830",
+          "10": "6462450"
+        },
+        "node_name": "9922559",
+        "node_type": "random_branch",
+        "possibilities": 10,
+        "title": "Random Branch"
+      },
+      {
+        "branches": {
+          "1": "5402681",
+          "2": "3673845"
+        },
+        "chance_1": 95,
+        "chance_2": 5,
+        "node_name": "6462450",
+        "node_type": "chance_branch",
+        "title": "Chance Branch"
+      },
+      {
+        "character": [ "Shopkeep", 1 ],
+        "is_box": false,
+        "next": "8845044",
+        "node_name": "8349477",
+        "node_type": "show_message",
+        "object_path": "",
+        "slide_camera": true,
+        "speaker_type": 0,
+        "text": { "ENG": "Some may call this junk. Me? I call it junk as well." },
+        "title": "Show Message"
+      },
+      {
+        "character": [ "Shopkeep", 1 ],
+        "is_box": false,
+        "next": "8845044",
+        "node_name": "6123164",
+        "node_type": "show_message",
+        "object_path": "",
+        "slide_camera": true,
+        "speaker_type": 0,
+        "text": { "ENG": "When your dead, can I have your stuff?" },
+        "title": "Show Message"
+      },
+      {
+        "character": [ "Shopkeep", 1 ],
+        "is_box": false,
+        "next": "8845044",
+        "node_name": "1669721",
+        "node_type": "show_message",
+        "object_path": "",
+        "slide_camera": true,
+        "speaker_type": 0,
+        "text": { "ENG": "I do like mushrooms, but, lucky for you, I expanded." },
+        "title": "Show Message"
+      },
+      {
+        "character": [ "Shopkeep", 1 ],
+        "is_box": false,
+        "next": "8845044",
+        "node_name": "6170663",
+        "node_type": "show_message",
+        "object_path": "",
+        "slide_camera": true,
+        "speaker_type": 0,
+        "text": { "ENG": "Don't touch anthing. I'm watching you..." },
+        "title": "Show Message"
+      },
+      {
+        "character": [ "Shopkeep", 1 ],
+        "choices": [
+          {
+            "condition": "",
+            "is_condition": false,
+            "next": "3779603",
+            "text": { "ENG": "Buy " }
+          },
+          {
+            "condition": "",
+            "is_condition": false,
+            "next": "9943219",
+            "text": { "ENG": "Sell" }
+          },
+          {
+            "condition": "",
+            "is_condition": false,
+            "next": null,
+            "text": { "ENG": "Leave" }
+          }
+        ],
+        "is_box": false,
+        "node_name": "8845044",
+        "node_type": "show_message",
+        "object_path": "",
+        "slide_camera": true,
+        "speaker_type": 0,
+        "text": { "ENG": "What can I get for you?" },
+        "title": "Show Message"
+      },
+      {
+        "next": null,
+        "node_name": "9943219",
+        "node_type": "execute",
+        "text": "0,DialogSystem,test",
+        "title": "Execute"
+      },
+      {
+        "next": null,
+        "node_name": "3779603",
+        "node_type": "execute",
+        "text": "1,InvokeTest,test",
+        "title": "Execute"
+      }
+    ],
+    "variables": {}
+  }
+]

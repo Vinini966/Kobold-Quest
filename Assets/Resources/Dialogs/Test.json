@@ -1,0 +1,87 @@
+[
+	
+	{
+		"nodes": [
+			{
+				"next": "7278582",
+				"node_name": "START",
+				"node_type": "start",
+				"title": "Start"
+			},
+			{
+				"character": [ "Player", 0 ],
+				"is_box": false,
+				"next": "3299920",
+				"node_name": "7278582",
+				"node_type": "show_message",
+				"object_path": "",
+				"slide_camera": false,
+				"speaker_type": 0,
+				"text": { "ENG": "This is a Test." },
+				"title": "Show Message"
+			},
+			{
+				"character": [ "Player", 0 ],
+				"choices": [
+					{
+						"condition": "",
+						"is_condition": false,
+						"next": "3741418",
+						"text": { "ENG": "Choice 1" }
+					},
+					{
+						"condition": "",
+						"is_condition": false,
+						"next": "6003540",
+						"text": { "ENG": "Choice 2" }
+					}
+				],
+				"is_box": false,
+				"node_name": "3299920",
+				"node_type": "show_message",
+				"object_path": "",
+				"slide_camera": false,
+				"speaker_type": 0,
+				"text": { "ENG": "This is a choice test" },
+				"title": "Show Message"
+			},
+			{
+				"character": [ "Player", 0 ],
+				"is_box": false,
+				"next": "3902677",
+				"node_name": "3741418",
+				"node_type": "show_message",
+				"object_path": "",
+				"slide_camera": true,
+				"speaker_type": 0,
+				"text": { "ENG": "This is the result of choice 1" },
+				"title": "Show Message"
+			},
+			{
+				"character": [ "Player", 0 ],
+				"is_box": false,
+				"next": "3902677",
+				"node_name": "6003540",
+				"node_type": "show_message",
+				"object_path": "",
+				"slide_camera": true,
+				"speaker_type": 0,
+				"text": { "ENG": "this is the result of choice 2" },
+				"title": "Show Message"
+			},
+			{
+				"character": [ "Char 1", 1 ],
+				"is_box": false,
+				"next": null,
+				"node_name": "3902677",
+				"node_type": "show_message",
+				"object_path": "",
+				"slide_camera": true,
+				"speaker_type": 0,
+				"text": { "ENG": "This is a different character" },
+				"title": "Show Message"
+			}
+		],
+		"variables": {}
+	}
+]

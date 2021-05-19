@@ -1,0 +1,37 @@
+[
+  {
+    "nodes": [
+      {
+        "next": "7336413",
+        "node_name": "START",
+        "node_type": "start",
+        "title": "Start"
+      },
+      {
+        "character": [ "Player", 0 ],
+        "is_box": false,
+        "next": null,
+        "node_name": "6741282",
+        "node_type": "show_message",
+        "object_path": "",
+        "slide_camera": true,
+        "speaker_type": 0,
+        "text": { "ENG": "I can press the I key to open my inventory." },
+        "title": "Show Message"
+      },
+      {
+        "character": [ "Player", 0 ],
+        "is_box": false,
+        "next": "6741282",
+        "node_name": "7336413",
+        "node_type": "show_message",
+        "object_path": "",
+        "slide_camera": true,
+        "speaker_type": 0,
+        "text": { "ENG": "Oh! Some Items! I can can walk over them and by pressing the R key I can pick them up." },
+        "title": "Show Message"
+      }
+    ],
+    "variables": {}
+  }
+]
